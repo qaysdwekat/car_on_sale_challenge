@@ -1,5 +1,5 @@
-import 'app_exception.dart';
 
+part of 'app_exception.dart';
 class ServerException extends AppException {
-  const ServerException({required super.message});
+  const ServerException({super.message, super.debugMessage});
 }

@@ -1,0 +1,5 @@
+
+enum StorageKey {
+  username,
+  cachedAuction
+}

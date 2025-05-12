@@ -1,1 +1,14 @@
-{}
+{
+    "welcome": "A warm welcome",
+    "username": "Username (email: info@caronsale.de)",
+    "username_validation_error": "Enter a valid email",
+    "username_required_error": "Email is required",
+    "login": "Login",
+    "vin": "VIN",
+    "vin_validation_error": "Invalid VIN format.\nMust be 17 characters, no I, O, Q.",
+    "vin_required_error": "VIN is required.\nPlease enter the 17-character identifier.",
+    "search": "Search",
+    "general_exception": "Something went wrong please try again.",
+    "dismiss": "Dismiss",
+    "check_vin_details": "Check VIN Details"
+}

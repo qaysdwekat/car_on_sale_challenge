@@ -1,10 +1,16 @@
 import 'package:equatable/equatable.dart';
 
-abstract class AppException extends Equatable {
-  final String? message;
+part 'general_exception.dart';
+part 'multiple_choices_exception.dart';
+part 'server_exception.dart';
+part 'unauthorized_exception.dart';
 
-  const AppException({required this.message});
+sealed class AppException extends Equatable {
+  final String? message;
+  final String? debugMessage;
+
+  const AppException({this.message, this.debugMessage});
 
   @override
-  List<Object?> get props => [message];
+  List<Object?> get props => [message, debugMessage];
 }
